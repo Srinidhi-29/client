@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# React Material-UI Users Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React application built using Material-UI components. It consists of two tabs: Users Table and Add User Form.
 
-## Available Scripts
+## Setup Instructions
+Clone this repository to your local machine:
+git clone <repository-url>
 
-In the project directory, you can run:
+Navigate to the project directory:
+cd <project-directory>
 
-### `npm start`
+Install dependencies:
+npm install
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Start the development server:
+npm start
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Open your browser and navigate to http://localhost:3000 to view the application.
 
-### `npm test`
+## Usage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Users Table (Tab 1)
+This tab displays a table showing users fetched from the server.
+The table is implemented using Material-UI components.
+Users data is fetched from the server and displayed in the table.
 
-### `npm run build`
+# Add User Form (Tab 2)
+This tab allows users to add a new user.
+It consists of a form with input fields for Name, Email, Age, and City.
+Material-UI components are used for input fields.
+After filling out the form, users can click on the "Submit" button to add the user using a POST request to the server API.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Additional Notes
+Ensure you have Node.js and npm installed on your machine before running the application.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+For production deployment, build the application using npm run build and deploy the generated build files to your hosting platform.
+This project uses the following libraries/frameworks:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+React.js
+Material-UI
